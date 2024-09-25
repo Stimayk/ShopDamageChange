@@ -41,7 +41,7 @@ namespace ShopDamageChange
         {
             if (JsonDamageMultiplier == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Óâåëè÷åíèå óðîíà");
+            SHOP_API.CreateCategory(CategoryName, "Ð£Ð²ÐµÐ»Ð¸Ñ‡ÐµÐ½Ð¸Ðµ ÑƒÑ€Ð¾Ð½Ð°");
 
             foreach (var item in JsonDamageMultiplier.Properties().Where(p => p.Value is JObject))
             {
